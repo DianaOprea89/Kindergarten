@@ -1,10 +1,194 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>$Title$</title>
+    <meta charset="UTF-8">
+    <title>Contact</title><!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link href="style.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
 </head>
 <body>
-$END$
+<header class="do-header container mb-5">
+
+        <div class="row">
+            <div class="col-2">
+                <img class="do-pic" src="1508453421paw-patrol-all-characters-png.png" alt="catelusi">
+            </div>
+            <div class="col-10" >
+                <nav class="navbar navbar-expand-lg bg-light">
+                    <div class="container-fluid">
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                                <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page" href="Index.html">De ce Patrula Catelusilor?</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="Echipa.html">Echipa</a>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                        Programa Scolara
+                                    </a>
+                                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                        <li><a class="dropdown-item" href="Gradinita.html">Gradinita</a></li>
+                                        <li><a class="dropdown-item" href="Cresa.html">Cresa</a></li>
+
+                                    </ul>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="Galerie.html">Galerie Photo</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="Contact.html">Contact</a>
+                                </li>
+
+                            </ul>
+                            <form class="d-flex" role="search">
+                                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                                <button class="btn btn-outline-success" type="submit">Search</button>
+                            </form>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12 text-center">
+                <h1 class="do-title"> Patrula Catelusilor</h1>
+
+            </div>
+        </div>
+</header>
+<div class="container do-contact">
+    <div class="row">
+        <div class="col-5 p-5">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d691.9707202655433!2d23.572370129257084!3d46.07337642906799!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x474ea8750785d791%3A0xce82d6a924672165!2sCalea%20Mo%C8%9Bilor%2039%2C%20Alba%20Iulia%2C%20Romania!5e0!3m2!1sen!2sus!4v1653986379348!5m2!1sen!2sus" width="500" height="350" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        <div class="col-7  p-5">
+            <div>
+                <div class="row p-5">
+                    <div class="col">
+                        <h4> Email : </h4>
+                        <p> patrula.catelusilor@gmail.com</p>
+                    </div>
+                    <div class="col">
+                        <h4> Telefon : </h4>
+                        <p> 0752347809</p>
+                    </div>
+
+                </div>
+                <div class="row p-5">
+                    <div class="col">
+                        <h4> Adresa : </h4>
+                        <p> Calea Motilor, nr.37 </p>
+                        <p> Alba Iulia </p>
+                    </div>
+                    <div class="col">
+                        <h4> Program </h4>
+                        <p> Luni- Vineri </p>
+                        <p> 07:30 - 19:30</p>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+<div class="row p-5">
+    <div class="col-12">
+        <div class="row">
+            <div class="col">
+                <label for="exampleFormControlInput5" class="form-label">Nume </label>
+                <input type="text" class="form-control" id="exampleFormControlInput5"
+                       aria-label="First name">
+            </div>
+            <div class="col">
+                <label for="exampleFormControlInput4" class="form-label">Prenume</label>
+                <input type="text" class="form-control" aria-label="Last name" id="exampleFormControlInput4">
+            </div>
+        </div>
+
+        <div class="my-3">
+            <label for="exampleFormControlInput3" class="form-label">Email address</label>
+            <input type="email" class="form-control" id="exampleFormControlInput3"
+                   placeholder="name@example.com">
+        </div>
+        <div class="mb-3">
+            <label for="exampleFormControlInput2" class="form-label">Subiect</label>
+            <input type="text" class="form-control" id="exampleFormControlInput2"
+            >
+        </div>
+        <div class="mb-3">
+            <label for="exampleFormControlTextarea1" class="form-label">Mesaj</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+        </div>
+        <div class="my-3 text-center"> <button type="button" class="btn btn-secondary">Trimite mesajul!</button></div>
+
+    </div>
+    </div>
+</div>
+<footer>
+    <div class="container">
+        <div class="p-5 row ">
+            <div class="col-12">
+
+                <h5 class="p-1">Aboneaza-te la newsletter pentru a fi la curent cu noutatile si promotiile Patrulei
+                    Catelusilor:</h5>
+
+
+                <!-- Button trigger modal -->
+
+                <button type="button" class="btn btn-outline-secondary  float-left" data-bs-toggle="modal"
+                        data-bs-target="#exampleModal">
+                    JOIN!
+                </button>
+
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                     aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLabel">Subscribe!</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <div class="row">
+                                    <div class="col">
+                                        <input type="text" class="form-control" placeholder="First name"
+                                               aria-label="First name">
+                                    </div>
+                                    <div class="col">
+                                        <input type="text" class="form-control" placeholder="Last name"
+                                               aria-label="Last name">
+                                    </div>
+                                </div>
+
+                                <div class="my-3">
+                                    <label for="exampleFormControlInput11" class="form-label">Email address</label>
+                                    <input type="email" class="form-control" id="exampleFormControlInput11"
+                                           placeholder="name@example.com">
+                                </div>
+
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Inchide!
+                                </button>
+                                <button type="button" class="btn btn-primary">Trimite mesajul!</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</footer>
 </body>
 </html>
